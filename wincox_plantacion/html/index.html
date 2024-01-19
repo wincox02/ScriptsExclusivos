@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div id="menu" style="display: none;">
+        <div class="plantasActuales">
+            <div class="pantalla">
+                <div class="titulo">
+                    <h1>Plantas Actuales</h1>
+                    <button id="refresh" onclick="refresh()">Refrescar</button>
+                </div>
+                <div class="listaPlantas">
+                </div>
+                <div class="listaMejoras" style="display: none;">
+                    <div class="mejora" id="mejoraAgua">
+                        <h2>Nivel de agua</h2>
+                        <p>
+                            Esta mejora hace que el nivel de agua de tus plantas este siempre al 100%
+                        </p>
+                        <div class="precioMejoraAgua">
+                            <p id="precioMejoraAgua">$9999</p>
+                        </div>
+                        <button id="botonCompraAgua">Comprar</button>
+                    </div>
+                    <div class="mejora" id="mejoraCrecimiento">
+                        <h2>Nivel de crecimiento</h2>
+                        <p>
+                            Esta mejora hace que tu plantas crezcan más rapido
+                        </p>
+                        <div class="precioMejoraCrecimiento">
+                            <p id="precioMejoraCrecimeinto">$9999</p>
+                        </div>
+                        <button id="botonCompraCrecimiento">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="precio">
+                    <p>Precio siguiente planta: <span id="precioPlanta" style="color: green;"></span></p>
+                </div>
+                <button id="botonComprar" onclick="comprarPlanta()">COMPRAR NUEVA PLANTA</button>
+            </div>
+        </div>
+       
+    </div>
+</body>
+
+</html>

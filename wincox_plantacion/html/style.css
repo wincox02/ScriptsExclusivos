@@ -1,0 +1,166 @@
+#menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 70vh;
+    max-width: 80vw;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(30, 30, 30);
+    border-radius: 16px;
+}
+
+.titulo {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plantasActuales {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pantalla {
+    width: 100%;
+    height: 80%;
+}
+
+.listaPlantas {
+    display: flex;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+    gap: 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.planta {
+    border-radius: 16px;
+    margin-top: 30px;
+    background-color: rgb(50, 50, 50);
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.planta img {
+    width: 100%;
+    height: 100%;
+}
+
+.barras {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.agua {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.porcentajeAgua {
+    max-width: 100%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 6px;
+}
+
+.crecimiento {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.porcentajeCreci {
+    max-width: 100%;
+    height: 100%;
+    background-color: green;
+    border-radius: 6px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+    background-color: rgb(30, 30, 30);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.precio {
+    display: flex;
+    align-items: center;
+}
+
+.precio p {
+    font-size: 40px;
+}
+
+.footer button {
+    height: 60%;
+    font-size: 25px;
+}
+
+.listaMejoras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: white; 
+}
+
+.mejora h2,p {
+    margin: 0;
+}
+
+.precioMejoraAgua{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mejora{
+    padding: 1%;
+    border-radius: 16px;
+    background-color: rgb(50, 50, 50);
+    width: 25%;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
